@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.envolvente{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.envolvente header{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.envolvente header nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 25px;
+    background-color: rgb(41, 153, 84);
+    padding: 3px;
+}
+
+.envolvente .contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.envolvente .contenido nav{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+
+    background-color: rgb(41, 153, 84);
+    color: #fff;  
+
+
+    list-style-type: none;
+    padding: 20px 3%;
+}
+
+
+.envolvente .contenido main{
+    flex: 1 1 60%;
+    padding: 20px 3%;
+}
+
+
+.envolvente .contenido aside{
+    flex: 1 1 20%;
+    background-color: rgb(41, 153, 84);
+}
+
+
+.envolvente .contenido aside .anuncio{
+
+    text-align: center;
+    margin: 15px auto;
+    width: 90%;
+}
+
+
+.envolvente .contenido aside .anuncio img{
+    width: 95%;
+    padding-top: 5px;
+}
+
+
+.envolvente .contenido aside .anuncio img+p{
+    width: 75%;
+    margin: 3px auto;
+    text-align: center;
+}
+
+
+.envolvente footer{
+    background-color: cadetblue;
+    display: flex;
+}
+
+
+.envolvente footer #pieizq{
+    padding: 10px 1%;
+    flex: 1 1 50%;
+}
+
+.arriba{
+    padding: 10px 1%;
+    background-color:rgb(41, 153, 84);
+    text-align: center;
+    display: flex;
+    flex: 1 15 550%;
+}
+
+
+
+
